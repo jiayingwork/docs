@@ -4,4 +4,6 @@
   c.配置github的用户名和密码，git config -- global user.name "jiayingwork"  git config --global user.email "943572120@qq.com"
   d.添加代码 git add . (添加所有的代码)
   e.查看是否添加成功，使用 git status查看状态
-  f.
+  f.提交代码 git commit -m "学习笔记"，需要输入提交的备注信息
+  g.本地项目与github建立远程仓库连接，git remote add origin https://github.com/jiayingwork/LearnNotes.git
+  h.提交项目到master分支，git push -u origin master
