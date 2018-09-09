@@ -1,0 +1,7 @@
+1、新建一个项目，如何传到github
+  a.新建项目，在本地项目的根目录，打开git Bash 命令窗口
+  b.git init 先初始化一个空的git仓库(在内部生成.git文件夹)，有关此项目的快站数据都会存放在这里。
+  c.配置github的用户名和密码，git config -- global user.name "jiayingwork"  git config --global user.email "943572120@qq.com"
+  d.添加代码 git add . (添加所有的代码)
+  e.查看是否添加成功，使用 git status查看状态
+  f.
