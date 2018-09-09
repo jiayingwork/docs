@@ -1,1 +1,4 @@
-2ss
+1、git连接github不用每次输入用户名和密码
+   a.在命令行中输入：git config --global credential.helper store
+   b.会在用户目录下的.gitconfig 最后增加[credential]  helper = store
+   c.push代码，这时候输入的用户名和密码会被记住，下次提交就不用再输入
