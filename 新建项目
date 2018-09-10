@@ -7,3 +7,8 @@
   f.提交代码 git commit -m "学习笔记"，需要输入提交的备注信息
   g.本地项目与github建立远程仓库连接，git remote add origin https://github.com/jiayingwork/LearnNotes.git
   h.提交项目到master分支，git push -u origin master
+  
+2、如何将github上的项目，下载到本地 
+  a.在本地新建一个文件夹，例如demo 
+  b.打开gitbath命令窗口，切换到demo目录底下 $ cd /H/杭州蜗牛/学习笔记项目/LearnNotes 
+  c.git init 创建git仓库 d.克隆项目 git clone https://github.com/jiayingwork/LearnNotes.git
